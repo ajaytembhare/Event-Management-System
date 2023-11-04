@@ -253,7 +253,7 @@ def all_event(request):
 
 # home
 def home(request, year=datetime.now().year, month=datetime.now().strftime('%B')):
-    name="Harshal"
+    name="Ajay"
     month = month.capitalize()
 
     month_number = list(calendar.month_name).index(month)
